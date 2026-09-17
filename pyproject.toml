@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opspulse"
+version = "1.0.0"
+description = "A lightweight production incident triage toolkit for log analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Sowgoto Raha Sunny" }]
+keywords = ["devops", "incident-response", "log-analysis", "sre", "cybersecurity"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: System :: Systems Administration",
+]
+
+[project.scripts]
+opspulse = "opspulse.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["opspulse*"]
+

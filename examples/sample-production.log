@@ -1,0 +1,21 @@
+2026-09-17T02:00:01Z INFO gateway request accepted transaction_id=784501
+2026-09-17T02:00:04Z INFO auth-service token validated user_id=12041
+2026-09-17T02:00:11Z WARNING db-primary connection pool usage at 82 percent
+2026-09-17T02:00:19Z INFO payment-api charge initiated transaction_id=784502
+2026-09-17T02:01:08Z ERROR payment-api payment gateway timeout transaction_id=784503 upstream=10.2.4.18
+2026-09-17T02:01:14Z ERROR payment-api payment gateway timeout transaction_id=784504 upstream=10.2.4.18
+2026-09-17T02:01:21Z WARNING gateway upstream latency exceeded 1200ms
+2026-09-17T02:01:37Z ERROR payment-api payment gateway timeout transaction_id=784505 upstream=10.2.4.18
+2026-09-17T02:02:02Z ERROR order-service failed to confirm payment transaction_id=784503
+2026-09-17T02:02:11Z ERROR payment-api payment gateway timeout transaction_id=784506 upstream=10.2.4.18
+2026-09-17T02:02:28Z CRITICAL payment-api circuit breaker opened after repeated upstream failures
+2026-09-17T02:03:05Z ERROR order-service failed to confirm payment transaction_id=784504
+2026-09-17T02:03:12Z WARNING db-primary connection pool usage at 91 percent
+2026-09-17T02:03:44Z ERROR notification-service retry queue depth exceeded threshold request_id=983451
+2026-09-17T02:04:01Z INFO gateway health endpoint returned 200
+2026-09-17T02:05:40Z INFO payment-api upstream probe successful
+2026-09-17T02:06:02Z INFO payment-api circuit breaker half-open
+2026-09-17T02:06:48Z INFO order-service reconciliation started
+2026-09-17T02:07:10Z INFO order-service payment reconciliation complete
+2026-09-17T02:08:00Z INFO payment-api service recovered
+
