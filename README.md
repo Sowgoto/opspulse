@@ -8,6 +8,7 @@ OpsPulse is a lightweight Python CLI that turns Linux and application logs into 
 
 This portfolio project demonstrates practical production-support skills: log-driven troubleshooting, incident triage, Python automation, Linux, Docker, testing, and CI/CD.
 
+
 ## What it does
 
 - Parses common plain-text and JSON log formats
@@ -21,7 +22,7 @@ This portfolio project demonstrates practical production-support skills: log-dri
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/opspulse.git
+git clone https://github.com/Sowgoto/opspulse.git
 cd opspulse
 python -m opspulse analyze examples/sample-production.log --output report.md
 ```
